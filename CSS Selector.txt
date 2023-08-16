@@ -1,0 +1,190 @@
+CSS:-
+-------------
+>> It stands for Cascading Style Sheet.
+>> It is used to design the layout of a webpage.
+>> CSS saves a lot of work because with the help of css we can design multiple layout together.
+>> CSS also describe how your page looks.
+>> The file extension of css file is .css
+>> CSS is all about attributes and its values.
+>> style is used to apply css in html elements.
+>> CSS is not a case sensitive like HTML.
+----------------------------------------------
+What are the ways to apply css in your webpage:
+There are following three ways to apply css in your webpage which are as given below:-
+1. Inline CSS.
+2. Internal / Embedded CSS.
+3. External CSS.
+----------------------------------------------
+1. Inline CSS:-
+--------------------
+>> Apply css inside html tag.
+>> Right next to the text it to decorates.
+----------------------------------------------
+Syntax:-
+---------------
+<htmltag style="attribute:value;">SOME TEXT HERE...</htmltag>
+For Example:-
+<p style="color:red;">Hello paragraph.</p>
+-----------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INLINE CSS</title>
+</head>
+<body style="background-image: url('img/a.jpg');">
+    <h1 style="TEXT-ALIGN:center;color:red;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">EXAMPLE OF INLINE CSS</h1>
+    <p style="font-size:40px;background-color: aquamarine;font-weight:bold;font-style:italic;color:red;text-align:center;">Hello Css How are YOU??</p>
+</body>
+</html>
+-----------------------------------------
+2. Internal CSS.
+>> Top of the document.
+>> Internal css can be applied inside <head></head>
+tag using <style></style>.
+-------------------------------------------
+Selector in CSS:-
+---------------------
+>> Selector is used to select an element in which you can apply style.
+Syntax:-
+----------------
+selectorName
+{
+attribute1:value1;
+attribute2:value2;
+}
+-----------------------------
+Types of Selector in CSS:-
+------------------------------
+There are following types of selector in css which are as follows:-
+1. Tag / Element Selector.
+2. ID Selector.
+3. Class Selector.
+4. Universal Selector.
+5. Group Selector. 
+6. Attribute Selector.
+7. CSS Combinators 
+>> CSS combinators is something i.e. used to provide the relationship among Selector.
+	a) Desendant Selector. [space]
+	b) Child Selector. [>]
+	c) Adjacent Sibling. [+]
+	d) General Sibling. [~]
+8. Psuedo Classes.
+------------------------------------------------
+1. Tag / Element Selector.
+----------------------------
+>> selector can be applied of html elements like -
+p,body,div,i,span etc.
+Syntax:-
+p
+{
+attribute:value;
+}
+-------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTERNAL CSS</title>
+    <style>
+        h1
+        {
+        text-align:center;
+        color:blue;
+        background-color: yellow;;
+        }   
+        body
+        {
+            background-image:url('img/a.jpg') ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Example of Internal CSS</h1>
+    <h1>Example of Internal CSS</h1>
+    <h1>Example of Internal CSS</h1>
+</body>
+</html>
+------------------------------------
+3. External CSS:-
+----------------------------
+>> In external we have separate html page and css page.
+>> it is very useful in enterprise application.
+-------------------------------------------------
+Syntax to connect External Css file with HTML PAGE:-
+----------------------------------------------------
+Note: Write this tag inside <head></head> tag:-
+<link href="path" rel="" type=""/>
+------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

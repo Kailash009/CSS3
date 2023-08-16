@@ -1,0 +1,153 @@
+HTML Comment:-
+-----------------
+<!-- Comment Goes Here...  -->
+------------------------------------
+Comments in CSS:-
+------------------
+>> It is used to the understand the code.
+>> Comment doesn't read by WebBrowser.
+Single Line Comment.
+/* Comment on a Single Line */
+Multi-Line Comment.
+/*
+line of code.
+line of code.
+line of code.
+line of code.
+*/
+
+Selectors in CSS:-
+----------------------
+>> selector is used to select an element in which we can apply style.
+1. Element.  -> Done.....
+2. ID Selector:-
+>> It is used to provide specific id of an element.
+>> We can't apply multiple ID's of a single element.
+>> It is represented by # symbol.
+>> when we call id on a particular element then we use [id="idName"]
+----------------------------------
+3. Class.
+>> We can use multiple classes on a single element.
+>> it represented by Dot Symbol.
+>> While calling we use class="className"
+-------------------------------------------------
+4. Universal.
+>> Whatever attributes you write inside Universal selector it automatically apply to all your HTML Documents.
+>> It is represented by Asterik Symbol. [ * ]
+------------------------------------------------
+5. Group Selector.
+>> we can apply attributes on multiple elements together.
+h1,div,p,body  // Group Selector.
+{
+}
+--------------------------------------
+6. Attribute Selector.
+>> To apply style on a particular element with the specified attirbute.
+-------------------------------------
+Syntax:-
+---------------
+tagname[attributeName]
+or 
+tagname[attributeName="value"]
+--------------------------------------
+p[align="center"]
+{
+    color:blue;
+    background-color: aquamarine;
+    font-size: 34px;
+}
+a[target="_blank"]
+{
+    background-color: chartreuse;
+    font-size: 45px;
+}
+-------------------------------
+7. Pseudo Classes.
+>> It is used to define the state of an Element.
+It can be defined Like:-
+ a) Style of an element when we mouse over it.
+ b) Check using visited or unvisited Link.
+ c) Check using link is active or not.
+---------------------------------------------
+1. link.  -> Unvisited Link.
+2. visited. -> Check Visited State.
+3. hover. -> When we mouse over it.
+4. active. -> To check link is active or not.
+-----------------------------------------------
+/* .po
+{
+ background-color: antiquewhite;   
+ font-size: 40px;
+}
+.kl
+{
+    background-color: aquamarine;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.ca
+{
+    color:crimson;
+} */
+/* div,p,h1,body  
+{
+background-color:blueviolet;
+color:antiquewhite;
+font-size:40px;
+} */
+p[align="center"]
+{
+    color:blue;
+    background-color: aquamarine;
+    font-size: 34px;
+}
+a[target="_blank"]
+{
+    background-color: chartreuse;
+    font-size: 45px;
+}
+/* Unvisited */
+a:link   
+{
+    background-color: cyan;
+    color:crimson;
+}
+/* visited */
+a:visited
+{
+    color:chartreuse;
+}
+/* Hover */
+a:hover
+{
+    color:chocolate;
+    background-color: wheat;
+}
+/* Active */
+a:active{
+    color:red;
+}
+--------------------------
+8. CSS Combinators. PENDING
+>> It Provide relationship between styles.
+	a) Descendant. [ space ]
+	b) Child. [>] (Greater Than)
+	c) Adjacent Sibling. [+] (Plus)	
+	d) General Sibling. [~] (Tild)
+-------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

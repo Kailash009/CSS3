@@ -1,0 +1,71 @@
+CSS Layout Properties:-
+---------------------------------------
+1. Display.
+>> Display properties is used to display the content of html element.
+display:none|block|inline|inline-block
+-------------------------------------------
+2. Position.
+--------------------
+>> To set the content.
+position:absolute|relative|fixed|static|sticky
+Note:-
+In Positioned attributes we use left,top,right,bottom.
+-----------------------------------------------------
+3. z-index.[Front,Behind,Others].
+>> To overcome the overlapping between the content.
+>> It tell us stack order of an element.
+>> z-Index determine which content must be Front[1],Behind[-1] and others.
+>> Negative value is also allowed.
+>> Negative value is used to set the content behind.
+------------------------------------------
+4. Overflow.
+>> To maintain the content inside the element.
+overflow:auto|hidden|scroll|visible
+-----------------------------------------------------
+5. Float.
+>> It is used to float the content.
+>> you can float the content by the following two ways - left/right.
+Clear:-
+>> When a user want to display the content other than left and right.[Below].
+clear:none|left|right|both;
+-----------------------------------
+6. Opacity/Transparency. 0.0 to 1.0
+------------------------------------------
+Pseudo Class:-
+----------------
+>> It is represented by : colon symbol.
+>> It is the family of CSS1.
+a:link  -> Unvisited.
+a:visited -> Visited
+a:hover -> when we mouse over an element. 
+a:active -> when we get mouse clicked.
+-----------------------------------------
+Pseudo Elements:-
+-------------------
+>> It is represented by :: Double colon symbol.
+>> it is the family of CSS2.
+Syntax:-
+---------------
+TagName::pseudoElement
+{
+attribute:value;
+}
+------------------------
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+h1::before {
+  content: url(path);
+}
+h1::after {
+  content: url(path);
+}
+::selection {
+  color: red;
+  background: yellow;
+}
+-------------------------------------
+
+
+
